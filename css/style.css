@@ -1,0 +1,28 @@
+/* task 1 */
+
+button {
+
+    background-color: rgb(221,160,221);
+    height: 100px;
+    width: 277px;
+    font-size: 30px;
+    color: rgb(253,251,251);
+    letter-spacing: 3.5px;
+    text-shadow: 4px 4px rgba(57, 55, 55, 0.636);
+    border-radius: 20px;
+    box-shadow: 2px 7px 20px black;
+    /* box-shadow: rgba(136, 165, 191, 0.48) 10px 5px 25px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
+    border-top: 50px;
+    border-top-color: aliceblue;
+    border-left-color: aliceblue;
+    
+}
+
+button:hover {
+
+    text-shadow: 1px 1px  rgba(57, 55, 55, 0.314);
+    box-shadow: 2px 7px 20px black inset; 
+    /* box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
+    border-bottom-color: aliceblue;
+    border-right-color: aliceblue;
+}
