@@ -84,11 +84,43 @@ p {
     border-bottom-color: brown;
     border-radius: 50%;
     padding: 30px;
-    animation: 0.75s ease infinite;
+    transform: 2s linear;
 }
 
-@keyframes spinning {
-    from { transform: rotate(0turn) }
-    to { transform: rotate(1turn) };
+p:hover{
+    transform: rotate(360deg);
 }
+
+/* task 5 */
+
+header{
+    background-color: rgb(5,100,98);
+    width: 600px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+
+    column-gap: 10px;
+    padding: 30px;
+}
+ul li a{
+    color: rgb(243,229,210);
+    font-size: 20px;
+    text-shadow: 1px 1px rgba(57, 55, 55, 0.636);
+    
+}
+
+a:hover{
+    cursor: pointer;
+    text-shadow: 0 0 5px palevioletred,
+    0 0 20px palevioletred,
+    0 0 60px palevioletred,
+    0 0 150px palevioletred;
+}
+
+
 
