@@ -59,3 +59,16 @@ figcaption{
 }
 
 /* task 3 */
+
+span {
+     font-size: 30px;
+     color: navy;
+     font-weight: bold;
+     transition: 2s ease-in-out;
+}
+
+span:hover{
+    
+color: brown;
+
+}
