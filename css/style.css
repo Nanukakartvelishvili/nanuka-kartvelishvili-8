@@ -72,3 +72,23 @@ span:hover{
 color: brown;
 
 }
+/* task 4 */
+
+p {
+    font-size: 40px;
+    display: inline;
+    margin-left: 40px;
+    border: 10px navy solid;
+    border-top-color: pink;
+    border-left-color: green;
+    border-bottom-color: brown;
+    border-radius: 50%;
+    padding: 30px;
+    animation: 0.75s ease infinite;
+}
+
+@keyframes spinning {
+    from { transform: rotate(0turn) }
+    to { transform: rotate(1turn) };
+}
+
