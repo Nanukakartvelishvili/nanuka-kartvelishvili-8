@@ -11,7 +11,7 @@ button {
     text-shadow: 4px 4px rgba(57, 55, 55, 0.636);
     border-radius: 20px;
     box-shadow: 2px 7px 20px black;
-    /* box-shadow: rgba(136, 165, 191, 0.48) 10px 5px 25px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
+
     border-top: 50px;
     border-top-color: aliceblue;
     border-left-color: aliceblue;
@@ -22,7 +22,40 @@ button:hover {
 
     text-shadow: 1px 1px  rgba(57, 55, 55, 0.314);
     box-shadow: 2px 7px 20px black inset; 
-    /* box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
     border-bottom-color: aliceblue;
     border-right-color: aliceblue;
 }
+
+/* task 2 */
+
+img { 
+width: 200px;
+height: 200px;
+
+}
+figure{
+    display: inline-block;
+    margin-inline: 20px;
+    padding: 20px 20px;
+}
+
+figure:hover{
+border: greenyellow 2px solid;
+box-shadow: 2px 7px 10px greenyellow;
+    border-radius: 10%;
+    transition-duration: 0.5s;
+}
+
+img:hover{
+    border: 1px transparent solid;
+    border-top-right-radius:10px ;
+    border-top-left-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+figcaption{
+   color: green;
+   margin-top: 5px;
+}
+
+/* task 3 */
